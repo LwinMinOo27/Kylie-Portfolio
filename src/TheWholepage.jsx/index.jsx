@@ -67,7 +67,7 @@ const App = () => {
               alt=""
               className="block w-full lg:h-screen object-cover rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none"
             />
-            <div className="block p-8 sm:p-16 lg:py-0 2xl:px-32">
+            <div className="block px-4 py-20 sm:px-8 sm:py-24 lg:px-16 lg:py-0 2xl:px-24">
               <p className="leading-8 font-dmSans">{myInfo.description}</p>
             </div>
           </div>
