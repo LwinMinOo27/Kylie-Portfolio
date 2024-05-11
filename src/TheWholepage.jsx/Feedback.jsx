@@ -10,7 +10,7 @@ const CarouselCard = () => {
       speed={1000}
       pauseOnDotsHover={true}
       dots={false}
-      className="max-w-2xl mx-8 md:mx-auto py-16 ring-1 ring-violet-300 shadow-2xl shadow-violet-400 rounded-3xl font-raleWay">
+      className="max-w-2xl mx-8 md:mx-auto py-16 ring-1 ring-violet-300 shadow-lg shadow-violet-300 sm:shadow-2xl sm:shadow-violet-400 rounded-3xl font-raleWay">
       {FeedbackBox.map((feedback) => (
         <div className="">
           <img
