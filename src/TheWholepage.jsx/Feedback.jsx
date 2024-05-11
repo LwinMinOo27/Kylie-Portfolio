@@ -26,7 +26,7 @@ const CarouselCard = () => {
               {feedback.customer_career}
             </p>
           </div>
-          <p className="px-4 sm:max-w-lg mx-auto leading-8 font-poppins text-neutral-700">
+          <p className="px-4 text-center sm:text-left sm:max-w-lg mx-auto leading-8 font-poppins text-neutral-700">
             {feedback.feedbackText}
           </p>
         </div>
