@@ -2,7 +2,7 @@ const About = [
   {
     description: `
     I'm Kylie, a passionate photographer and graphic designer from Bangkok, Thailand. As the founder of CHALAP STUDIO, I specialize in creating stunning graphic designs and capturing captivating photographs.`,
-    img: "./dist/profile.png",
+    img: "profile.png",
   },
 ];
 
@@ -11,7 +11,7 @@ const CareerList = [
     id: 1,
     title: "Photographing",
     desc: `Capturing moments that tell stories, I specialize in crafting visual narratives through photography. With a keen eye for detail and a passion for creativity, I strive to create images that resonate and inspire. Based in Bangkok, Thailand, I am dedicated to bringing your vision to life through the lens of my camera.`,
-    img: `./public/Photography.png`,
+    img: `Photography.png`,
   },
   {
     id: 2,
