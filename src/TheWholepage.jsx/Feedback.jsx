@@ -38,7 +38,7 @@ const CarouselCard = () => {
 const Feedback = () => {
   return (
     <main className="max-w-5xl mx-auto h-screen my-32">
-      <div className="text-center mb-16">
+      <div className="text-center mb-16 px-8">
         <p className="uppercase px-4 py-2 border-[1px] border-violet-300 rounded-3xl inline-block text-violet-700 font-semibold shadow-md shadow-violet-200">
           Customer Sayings
         </p>

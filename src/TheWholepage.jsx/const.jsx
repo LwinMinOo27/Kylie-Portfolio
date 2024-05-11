@@ -37,7 +37,7 @@ const FeedbackBox = [
   {
     id: "FB1",
     feedbackText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!",
     customer_img: "./public/Mary Jane.png",
     customer_name: "Mary Jane",
     customer_career: "Fashion Model",
