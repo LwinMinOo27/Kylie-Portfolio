@@ -16,7 +16,7 @@ const WhatIdo = () => {
                 ">
                 <div
                   className="
-                  px-8 sm:px-12 md:max-w-xl mx-auto py-16 lg:py-0
+                  px-4 sm:max-w-xl mx-auto py-8 lg:py-0
                   ">
                   <p
                     className="
@@ -47,7 +47,7 @@ const WhatIdo = () => {
                    block rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none ring1 ring-neutral-100
                    "
                 />
-                <div className="px-8 sm:px-12 md:max-w-xl mx-auto py-16 lg:py-0">
+                <div className="px-4 sm:max-w-xl mx-auto py-8 lg:py-0">
                   <p className="uppercase text-xl md:text-3xl font-orbitron font-semibold mb-8">
                     {career.title}
                   </p>

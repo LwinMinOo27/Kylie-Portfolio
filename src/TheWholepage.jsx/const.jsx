@@ -17,19 +17,19 @@ const CareerList = [
     id: 2,
     title: "Photo Editing",
     desc: `With an eye for detail and a passion for storytelling, I specialize in enhancing photographs to create visually compelling narratives. As a skilled photo editor, I bring images to life, transforming them into powerful pieces of visual communication. Let me help you tell your story through expert editing techniques.`,
-    img: `./public/photoedit.png`,
+    img: `photoedit.png`,
   },
   {
     id: 3,
     title: "Video Editing",
     desc: `Creating next-level graphic design is my biggest expertise. With a keen eye for detail and a passion for creativity, I specialize in crafting visually stunning designs that captivate and inspire. Whether it's branding, illustration, or print design, I bring ideas to life with style and sophistication, ensuring each project leaves a lasting impression.`,
-    img: `./public/video.png`, // This line seems to be duplicated
+    img: `video.png`, // This line seems to be duplicated
   },
   {
     id: 4,
     title: "Graphics Designing",
     desc: `Creating next-level graphic design is my biggest expertise. With a keen eye for detail and a passion for creativity, I specialize in crafting visually stunning designs that captivate and inspire. Whether it's branding, illustration, or print design, I bring ideas to life with style and sophistication, ensuring each project leaves a lasting impression.`,
-    img: `./public/graphics.png`,
+    img: `graphics.png`,
   },
 ];
 
@@ -38,7 +38,7 @@ const FeedbackBox = [
     id: "FB1",
     feedbackText:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!",
-    customer_img: "./public/Mary Jane.png",
+    customer_img: "Mary Jane.png",
     customer_name: "Mary Jane",
     customer_career: "Fashion Model",
   },
@@ -46,7 +46,7 @@ const FeedbackBox = [
     id: "FB2",
     feedbackText:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!",
-    customer_img: "./public/Taylor.png",
+    customer_img: "Taylor.png",
     customer_name: "Taylor",
     customer_career: "Videographer",
   },
@@ -54,7 +54,7 @@ const FeedbackBox = [
     id: "FB3",
     feedbackText:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!",
-    customer_img: "./public/Will.png",
+    customer_img: "Will.png",
     customer_name: "Broly Will",
     customer_career: "Sereni-tea Café Owner",
   },
@@ -62,7 +62,7 @@ const FeedbackBox = [
     id: "FB4",
     feedbackText:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero ipsum tempore repellat maiores voluptas hic ratione, magnam enim doloribus velit accusamus possimus esse necessitatibus ipsa inventore officia magni? Veniam!",
-    customer_img: "./public/Aster.png",
+    customer_img: "Aster.png",
     customer_name: "Aster",
     customer_career: "DigitalVantage Solutions Manager",
   },
