@@ -59,16 +59,16 @@ const App = () => {
       <div>
         <InfiniteLoop name="whoIam" />
       </div>
-      <div className="max-w-full lg:mx-8 bg-neutral-100 lg:ring-1 lg:ring-neutral-100 lg:rounded-2xl ">
+      <div className="max-w-full mx-8 bg-neutral-100 lg:ring-1 lg:ring-neutral-100 rounded-2xl ">
         {aboutMe.map((myInfo) => (
           <div className="block lg:grid grid-flow-col grid-cols-2 lg:h-screen items-center">
             <img
               src={myInfo.img}
               alt=""
-              className="block w-full lg:h-screen object-cover lg:rounded-l-2xl lg:rounded-r-none"
+              className="block w-full lg:h-screen object-cover rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none"
             />
             <div className="block p-8 sm:p-16 lg:py-0 2xl:px-32">
-              <p className="leading-7 sm:leading-9">{myInfo.description}</p>
+              <p className="leading-8 font-dmSans">{myInfo.description}</p>
             </div>
           </div>
         ))}
