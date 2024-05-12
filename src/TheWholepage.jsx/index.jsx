@@ -24,7 +24,7 @@ function InfiniteLoop({ name }) {
           </>
         ),
       }));
-    }, 1); // Adjust the interval as needed
+    }, 1);
 
     return () => clearInterval(interval);
   }, [name]);
@@ -70,7 +70,7 @@ const App = () => {
               alt=""
               className="block w-full lg:h-screen object-cover rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none"
             />
-            <div className="block py-24 px-6 sm:px-16 md:px-20 lg:py-0 xl:px-24 2xl:px-36">
+            <div className="block py-16 sm:py-24 px-6 sm:px-16 md:px-20 lg:py-0 xl:px-24 2xl:px-36">
               <p className="leading-8 font-dmSans">{myInfo.description}</p>
             </div>
           </div>

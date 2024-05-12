@@ -7,7 +7,7 @@ const WhatIdo = () => {
     <>
       {Career.map((career) => (
         <ul className="list-none px-8">
-          <li key={career.id}>
+          <li key={career.id} className="my-8">
             {career.id % 2 !== 0 ? (
               <section
                 className="
