@@ -2,12 +2,15 @@ import React, { useState, useEffect } from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import WhatIdo from "./WhatIdo.jsx";
 import Feedback from "./Feedback.jsx";
+import Contact from "./Contact.jsx";
+import Footer from "./Footer.jsx";
 import { About } from "./const.jsx";
 
 function InfiniteLoop({ name }) {
   const [content, setContent] = useState({
     whoiam: <p>Who i am</p>,
     whatIdo: <p>What I do</p>,
+    makeyouShine: <p>Make you shine</p>,
   });
 
   useEffect(() => {
@@ -27,7 +30,7 @@ function InfiniteLoop({ name }) {
   }, [name]);
 
   return (
-    <div className="max-w-[1900px] whitespace-nowrap overflow-hidden my-8 lg:my-16">
+    <div className="whitespace-nowrap overflow-hidden my-8 lg:my-16">
       <p
         className="uppercase text-7xl flex gap-12 font-bold font-mateSc"
         id="flowText">
@@ -59,7 +62,7 @@ const App = () => {
       <div>
         <InfiniteLoop name="whoIam" />
       </div>
-      <div className="max-w-full mx-8 bg-neutral-100 lg:ring-1 lg:ring-neutral-100 rounded-2xl ">
+      <div className="max-w-full mx-8 bg-gray-100 lg:ring-1 lg:ring-gray-100 rounded-2xl shadow-md ">
         {aboutMe.map((myInfo) => (
           <div className="block lg:grid grid-flow-col grid-cols-2 lg:h-screen items-center">
             <img
@@ -67,7 +70,7 @@ const App = () => {
               alt=""
               className="block w-full lg:h-screen object-cover rounded-t-2xl lg:rounded-l-2xl lg:rounded-r-none"
             />
-            <div className="block px-4 py-20 sm:px-8 sm:py-24 lg:px-16 lg:py-0 2xl:px-24">
+            <div className="block py-24 px-6 sm:px-16 md:px-20 lg:py-0 xl:px-24 2xl:px-36">
               <p className="leading-8 font-dmSans">{myInfo.description}</p>
             </div>
           </div>
@@ -79,6 +82,8 @@ const App = () => {
       {/* Who I am */}
       <WhatIdo />
       <Feedback />
+      <Contact />
+      <Footer />
     </main>
   );
 };

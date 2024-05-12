@@ -14,11 +14,7 @@
 
 @layer base {
   body {
-    @apply box-border font-raleWay text-neutral-950 my-16;
-  }
-  div,
-  p {
-    @apply selection:bg-[#e0e0e0] selection:text-neutral-950;
+    @apply box-border font-raleWay;
   }
 }
 #flowText {
